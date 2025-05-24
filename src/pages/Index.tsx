@@ -14,33 +14,33 @@ const Index = () => {
   const features = [
     {
       icon: "🔍",
-      title: "Automatic Search",
-      description: "Our AI continuously scans multiple rental platforms, finding new listings that match your criteria 24/7."
+      title: "Automatische Suche",
+      description: "Unsere KI durchsucht kontinuierlich mehrere Mietplattformen und findet neue Angebote, die Ihren Kriterien entsprechen - 24/7."
     },
     {
       icon: "🎯",
-      title: "Smart Filtering",
-      description: "Advanced filters beyond basic search - commute time, neighborhood safety, nearby amenities, and more."
+      title: "Intelligente Filter",
+      description: "Erweiterte Filter über die Grundsuche hinaus - Pendelzeit, Nachbarschaftssicherheit, nahegelegene Annehmlichkeiten und mehr."
     },
     {
       icon: "⭐",
-      title: "AI Scoring System",
-      description: "Each apartment gets a personalized compatibility score based on your preferences and lifestyle."
+      title: "KI-Bewertungssystem",
+      description: "Jede Wohnung erhält eine personalisierte Kompatibilitätsbewertung basierend auf Ihren Vorlieben und Ihrem Lebensstil."
     },
     {
       icon: "⚡",
-      title: "Auto Applications",
-      description: "Skip the manual work - RentAI applies to your top matches automatically with your pre-filled information."
+      title: "Auto-Bewerbungen",
+      description: "Überspringen Sie die manuelle Arbeit - RentAI bewirbt sich automatisch auf Ihre Top-Matches mit Ihren vorausgefüllten Informationen."
     },
     {
       icon: "📱",
-      title: "Instant Notifications",
-      description: "Get notified immediately when we find great matches or receive responses from landlords."
+      title: "Sofortige Benachrichtigungen",
+      description: "Werden Sie sofort benachrichtigt, wenn wir großartige Matches finden oder Antworten von Vermietern erhalten."
     },
     {
       icon: "🏠",
-      title: "Market Insights",
-      description: "Understand rental trends, price predictions, and neighborhood analysis to make informed decisions."
+      title: "Markteinblicke",
+      description: "Verstehen Sie Miettrends, Preisprognosen und Nachbarschaftsanalysen, um fundierte Entscheidungen zu treffen."
     }
   ];
 
@@ -56,7 +56,7 @@ const Index = () => {
           onClick={scrollToWaitlist}
           className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-6 py-2 rounded-lg font-semibold hover:shadow-lg transition-all duration-200"
         >
-          Join Waitlist
+          Zur Warteliste
         </button>
       </nav>
 
@@ -69,11 +69,11 @@ const Index = () => {
         <div className="mb-20">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">
-              How RentAI Works
+              Wie RentAI funktioniert
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Our AI-powered platform handles every step of your apartment search, 
-              from discovery to application, so you can focus on what matters most.
+              Unsere KI-gestützte Plattform übernimmt jeden Schritt Ihrer Wohnungssuche, 
+              von der Entdeckung bis zur Bewerbung, damit Sie sich auf das Wesentliche konzentrieren können.
             </p>
           </div>
           
@@ -93,16 +93,16 @@ const Index = () => {
         <div className="bg-white rounded-2xl p-8 mb-20 shadow-lg">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-purple-600 mb-2">10,000+</div>
-              <div className="text-gray-600">People on Waitlist</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">752</div>
+              <div className="text-gray-600">Personen auf der Warteliste</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">95%</div>
-              <div className="text-gray-600">Success Rate in Beta</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">Gut</div>
+              <div className="text-gray-600">Erfolgsrate in der Beta</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-indigo-600 mb-2">72 hrs</div>
-              <div className="text-gray-600">Average Time to Find Perfect Match</div>
+              <div className="text-4xl font-bold text-indigo-600 mb-2">5 Std</div>
+              <div className="text-gray-600">Durchschnittliche Zeit für perfekte Übereinstimmung</div>
             </div>
           </div>
         </div>
@@ -119,10 +119,10 @@ const Index = () => {
             <span className="text-xl font-bold text-gray-900">RentAI</span>
           </div>
           <p className="text-gray-600 mb-4">
-            Revolutionizing apartment hunting with artificial intelligence
+            Revolutionierung der Wohnungssuche mit künstlicher Intelligenz
           </p>
           <p className="text-sm text-gray-500">
-            © 2024 RentAI. All rights reserved. | Privacy Policy | Terms of Service
+            © 2024 RentAI. Alle Rechte vorbehalten. | Datenschutzrichtlinie | Nutzungsbedingungen
           </p>
         </footer>
       </div>
