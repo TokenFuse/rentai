@@ -97,7 +97,7 @@ const Index = () => {
               <div className="text-gray-600">Personen auf der Warteliste</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-blue-600 mb-2">Gut</div>
+              <div className="text-4xl font-bold text-blue-600 mb-2">95%</div>
               <div className="text-gray-600">Erfolgsrate in der Beta</div>
             </div>
             <div>
