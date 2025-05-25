@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { useToast } from '@/hooks/use-toast';
+import { supabase } from '@/integrations/supabase/client';
 
 const WaitlistForm = () => {
   const [email, setEmail] = useState('');
@@ -23,15 +24,39 @@ const WaitlistForm = () => {
 
     setIsLoading(true);
     
-    // Simulate API call
-    setTimeout(() => {
+    try {
+      const { error } = await supabase
+        .from('waitlist')
+        .insert([{ email }]);
+
+      if (error) {
+        // Handle duplicate email error specifically
+        if (error.code === '23505') {
+          toast({
+            title: "E-Mail bereits registriert",
+            description: "Diese E-Mail-Adresse steht bereits auf der Warteliste!",
+            variant: "destructive",
+          });
+        } else {
+          throw error;
+        }
+      } else {
+        toast({
+          title: "Erfolgreich angemeldet! 🎉",
+          description: "Sie stehen jetzt auf der RentAI Warteliste. Wir benachrichtigen Sie, sobald es verfügbar ist!",
+        });
+        setEmail('');
+      }
+    } catch (error) {
+      console.error('Error saving email:', error);
       toast({
-        title: "Erfolgreich angemeldet! 🎉",
-        description: "Sie stehen jetzt auf der RentAI Warteliste. Wir benachrichtigen Sie, sobald es verfügbar ist!",
+        title: "Fehler",
+        description: "Es gab einen Fehler beim Speichern Ihrer E-Mail. Bitte versuchen Sie es erneut.",
+        variant: "destructive",
       });
-      setEmail('');
+    } finally {
       setIsLoading(false);
-    }, 1000);
+    }
   };
 
   return (
