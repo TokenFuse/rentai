@@ -15,32 +15,32 @@ const Index = () => {
     {
       icon: "🔍",
       title: "Automatische Suche",
-      description: "Unsere KI durchsucht kontinuierlich mehrere Mietplattformen und findet neue Angebote, die Ihren Kriterien entsprechen - 24/7."
+      description: "Unser Agent durchsucht kontinuierlich alle Mietplattformen und findet neue Angebote, die deinen Kriterien entsprechen - 24/7."
     },
     {
       icon: "🎯",
       title: "Intelligente Filter",
-      description: "Erweiterte Filter über die Grundsuche hinaus - Pendelzeit, Nachbarschaftssicherheit, nahegelegene Annehmlichkeiten und mehr."
+      description: "Erweiterte Filter über die Grundsuche hinaus - Pendelzeit, Lage, Verfügbarkeit von Lebensmittelgschäften und mehr."
     },
     {
       icon: "⭐",
       title: "KI-Bewertungssystem",
-      description: "Jede Wohnung erhält eine personalisierte Kompatibilitätsbewertung basierend auf Ihren Vorlieben und Ihrem Lebensstil."
+      description: "Jede Wohnung erhält eine personalisierte Kompatibilitätsbewertung basierend auf deinen Vorlieben und deinem Lebensstil."
     },
     {
       icon: "⚡",
       title: "Auto-Bewerbungen",
-      description: "Überspringen Sie die manuelle Arbeit - RentAI bewirbt sich automatisch auf Ihre Top-Matches mit Ihren vorausgefüllten Informationen."
+      description: "Überspringe die manuelle Arbeit - RentAI bewirbt sich automatisch auf deine Top-Matches mit deinen vorausgefüllten Informationen."
     },
     {
       icon: "📱",
       title: "Sofortige Benachrichtigungen",
-      description: "Werden Sie sofort benachrichtigt, wenn wir großartige Matches finden oder Antworten von Vermietern erhalten."
+      description: "Du wirst sofort benachrichtigt, wenn wir deine Traumwohnung finden oder Antworten von Vermietern erhalten."
     },
     {
       icon: "🏠",
       title: "Markteinblicke",
-      description: "Verstehen Sie Miettrends, Preisprognosen und Nachbarschaftsanalysen, um fundierte Entscheidungen zu treffen."
+      description: "Verstehe Miettrends, Preisprognosen und Nachbarschaftsanalysen, um fundierte Entscheidungen zu treffen."
     }
   ];
 
@@ -72,8 +72,8 @@ const Index = () => {
               Wie RentAI funktioniert
             </h2>
             <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-              Unsere KI-gestützte Plattform übernimmt jeden Schritt Ihrer Wohnungssuche, 
-              von der Entdeckung bis zur Bewerbung, damit Sie sich auf das Wesentliche konzentrieren können.
+              Unsere KI-gestützte Plattform übernimmt jeden Schritt deiner Wohnungssuche, 
+              von der Entdeckung bis zur Bewerbung, damit du dich auf das Wesentliche konzentrieren kannst.
             </p>
           </div>
           
@@ -93,7 +93,7 @@ const Index = () => {
         <div className="bg-white rounded-2xl p-8 mb-20 shadow-lg">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-purple-600 mb-2">752</div>
+              <div className="text-4xl font-bold text-purple-600 mb-2">357</div>
               <div className="text-gray-600">Personen auf der Warteliste</div>
             </div>
             <div>
@@ -119,10 +119,10 @@ const Index = () => {
             <span className="text-xl font-bold text-gray-900">RentAI</span>
           </div>
           <p className="text-gray-600 mb-4">
-            Revolutionierung der Wohnungssuche mit künstlicher Intelligenz
+            Revolutionierung deiner Wohnungssuche mit künstlicher Intelligenz
           </p>
           <p className="text-sm text-gray-500">
-            © 2024 RentAI. Alle Rechte vorbehalten. | Datenschutzrichtlinie | Nutzungsbedingungen
+            © 2025 RentAI. Alle Rechte vorbehalten. | Datenschutzrichtlinie | Nutzungsbedingungen
           </p>
         </footer>
       </div>
