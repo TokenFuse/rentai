@@ -62,15 +62,15 @@ const WaitlistForm = () => {
   return (
     <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl p-8 text-white">
       <div className="text-center mb-6">
-        <h2 className="text-3xl font-bold mb-2">Bereit, Ihre Wohnungssuche zu revolutionieren?</h2>
-        <p className="text-purple-100">Schließen Sie sich Hunderten anderen an, die auf RentAI warten</p>
+        <h2 className="text-3xl font-bold mb-2">Bereit, deine Wohnungssuche zu revolutionieren?</h2>
+        <p className="text-purple-100">Schliesse dich Hunderten anderen an, die auf RentAI warten</p>
       </div>
       
       <form onSubmit={handleSubmit} className="max-w-md mx-auto">
         <div className="flex flex-col sm:flex-row gap-4">
           <Input
             type="email"
-            placeholder="Geben Sie Ihre E-Mail-Adresse ein"
+            placeholder="Gib deine E-Mail-Adresse ein"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             className="flex-1 bg-white text-gray-900 border-0 placeholder:text-gray-500"
@@ -85,7 +85,7 @@ const WaitlistForm = () => {
           </Button>
         </div>
         <p className="text-sm text-purple-100 mt-4 text-center">
-          Kein Spam, niemals. Wir kontaktieren Sie nur, wenn RentAI bereit für den Start ist.
+          Kein Spam, niemals. Wir kontaktieren dich nur, wenn RentAI bereit für den Start ist.
         </p>
       </form>
     </div>
